@@ -159,7 +159,7 @@ public class Receiver extends Thread {
 				
 				
 			}
-			if(flag = true) {
+			if(flag == true) {
 				flag = false;
 				trigger_Update(m.getRoutingTable());
 			}
